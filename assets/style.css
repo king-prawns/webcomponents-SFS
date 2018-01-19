@@ -1,0 +1,42 @@
+:root {
+  --first-step-background-color: #A9EAC5;
+  --second-step-background-color: #AADBEB;
+  --third-step-background-color: #ECC6AA;
+  --fieldset-max-width: 330px;
+  --fieldset-question-font-style: italic;
+  --fieldset-label-font-size: 17px;
+  --check-icon-background-color: #B7FDB2;
+  --check-icon-color: #509B1D;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 15px;
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: -ms-linear-gradient(top, #303030 0%, #131313 100%);
+  background-image: -moz-linear-gradient(top, #303030 0%, #131313 100%);
+  background-image: -o-linear-gradient(top, #303030 0%, #131313 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #303030), color-stop(100, #131313));
+  background-image: -webkit-linear-gradient(top, #303030 0%, #131313 100%);
+  background-image: linear-gradient(to bottom, #303030 0%, #131313 100%);
+}
+
+h1 {
+  margin: 0 0 15px 0;
+  font-size: 45px;
+  font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+h1 span {
+  color: #408ECE;
+}
+
+#page-wrap {
+  height: 100%;
+}
